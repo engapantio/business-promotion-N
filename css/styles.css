@@ -327,7 +327,9 @@ button {
   padding: 50px 0 150px;
 }
 
-.benefit-management {
+.benefit-management,
+.benefit-support,
+.benefit-collaboration {
   display: flex;
   align-items: center;
   gap: 84px;
@@ -360,6 +362,58 @@ button {
   font-weight: 600;
   margin-bottom: 12px;
 }
+
+.benefit-support img,
+.benefit-collaboration img {
+  min-width: 50%;
+}
+
+.tick-table-wrap {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-right: 35px;
+}
+
+.support-point {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.tick-background {
+  border: 2.92px solid #fff;
+  border-radius: 14px;
+  min-width: 35px;
+  min-height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-tick {
+  background-color: #f90;
+}
+
+.second-tick {
+  background-color: #f03e3d;
+}
+
+.third-tick {
+  background-color: #4d8dff;
+}
+
+.tickmark-icon {
+  fill: #fff;
+}
+
+.tick-description {
+  display: block;
+  line-height: 162%;
+}
+
+/*#endregion Benefits*/
 
 /*#region Footer*/
 
